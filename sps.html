@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.P.S</title>
+    <link rel="icon" href="assets/stp-log.jpg">
+    <link rel="stylesheet" href="sps.css">
+</head>
+<body>
+    <p>Rock Paper Scissor</p>
+    <div>
+        <div class="player-options">
+            <button class="button-rock button-player"><img src="assets/rock-emoji.png"></button>
+            <span>Rock</span>
+        </div>
+        <div class="player-options">
+            <button class="button-paper button-player"><img src="assets/paper-emoji.png"></button>
+            <span>Paper</span>
+        </div>
+        <div class="player-options">
+            <button class="button-scissor button-player"><img src="assets/scissor-emoji.png"></button>
+            <span>Scissor</span>
+        </div>
+    </div>
+    <div class="result-summary reset-phase"></div>
+    <div class="result-board reset-phase" id="result-show">
+        
+    </div>
+    <div class="sir">
+        <span>Win:0</span>
+        <span>Lose:0</span>
+        <span>Tie:0</span>
+    </div>
+    <div class="systum">
+        <button class="button-reset" >Reset</button>
+        <button class="button-auto">Auto Play</button>
+    </div>
+    <div class="confirmation">
+
+    </div>
+    <script src="sps.js"></script>
+</body>
+</html>
